@@ -1,0 +1,47 @@
+{
+    "usd":
+        {
+            "cpi":
+                {
+                    "series_code": "CPIAUCSL"
+                },
+            "interest":
+                {
+                    "series_code": "DGS3MO"
+                },
+            "inflation_f12m":
+                {
+                    "series_code": "EXPINF1YR"
+                }
+        },
+    "brl":
+        {
+            "cpi":
+                {
+                    "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2266/p/all/d/v2266%2013"
+                },
+            "interest":
+                {
+                    "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados?formato=json"
+                },
+            "inflation_f12m":
+                {
+                    "url": "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativasMercadoInflacao12Meses?$filter=Indicador%20eq%20'IPCA'%20and%20Suavizada%20eq%20'N'&$format=json"
+                },
+            "bonds":
+                {
+                    "url": "https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59-8184-7676580c81e3/resource/796d2059-14e9-44e3-80c9-2d9e30b405c1/download/PrecoTaxaTesouroDireto.csv"
+                }
+        },
+    "eur":
+        {
+            "cpi":
+                {
+                    "url": "https://sdw-wsrest.ecb.europa.eu/service/data/ICP/M.U2.N.000000.4.INX?format=jsondata"
+                },
+            "interest":
+                {
+                    "url": "https://sdw-wsrest.ecb.europa.eu/service/data/MIR/M.U2.B.L21.A.R.A.2240.EUR.N?format=jsondata"
+                }
+        }
+}

@@ -1,0 +1,12 @@
+{
+    "fred_api_key": "46f4c7f344087285a7a51e07461e22cb"
+    , "curr_series_code": "DEXBZUS"
+    , "curr_pair": "usdbrl"
+    , "brl_bonds_url": "https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59-8184-7676580c81e3/resource/796d2059-14e9-44e3-80c9-2d9e30b405c1/download/PrecoTaxaTesouroDireto.csv"
+    , "cpi_brl_url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2266/p/all/d/v2266%2013"
+    , "cpi_eur_url": "https://sdw-wsrest.ecb.europa.eu/service/data/ICP/M.U2.N.000000.4.INX?format=jsondata"
+    , "cpi_usd_series_code": "CPIAUCSL"
+    , "interest_eur_url": "https://sdw-wsrest.ecb.europa.eu/service/data/MIR/M.U2.B.L21.A.R.A.2240.EUR.N?format=jsondata"
+    , "interest_brl_url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados?formato=json"
+    , "interest_usd_series_code": "DGS3MO"
+}

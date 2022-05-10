@@ -1,0 +1,13 @@
+name: env_mining
+channels:
+  - defaults
+dependencies:
+  - python=3.9.12 
+  - pip=21.2.4
+  - pip:
+    - requests==2.27.1
+    - fredapi==0.5.0
+    - pyarrow==7.0.0
+    - fastparquet==0.8.1
+    - pandas==1.4.2
+    - argparse==1.4.0
